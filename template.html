@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mail</title>
+  </head>
+  <body style="padding: 0; margin: 0">
+    <!-- Add this 'direction: rtl;' to styling of "mail-container" if you want to send arabic mail  -->
+    <div
+      id="mail-container"
+      style="
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 65px 0;
+        background-color: #ced4da;
+        direction: ltr;
+      "
+    >
+      <div style="margin: 0 20px">
+        <div
+          id="mail-content"
+          style="
+            max-width: 800px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            padding: 1px 0;
+          "
+        >
+          <div style="height: 50px; width: 50px; margin: 4px auto 24px auto">
+            <a href="__companySite__" target="_blank">
+              <img
+                src="__logoURL__"
+                alt="__altLogo__"
+                style="margin-top: 20px; height: 50px; width: 50px"
+            /></a>
+          </div>
+
+          <a href="__bannerSiteLink__" target="_blank">
+            <img
+              src="__bannerImageLink__"
+              alt="__altBanner__"
+              style="
+                margin-top: 20px;
+                max-height: 200px;
+                width: 100%;
+                align-self: center;
+              "
+          /></a>
+          <div id="mail-content-txt" style="margin: 0 40px">
+            <div id="mail-content-header">
+              <h1 style="padding: 42px 0 8px 0; margin: 0">__mainTitle__</h1>
+              <p
+                style="
+                  color: #495057;
+                  padding: 0;
+                  margin: 0;
+                  margin-bottom: 30px;
+                  font-weight: bold;
+                "
+              >
+                __date__
+              </p>
+            </div>
+            <h2>Hello __recieverName__</h2>
+            <p style="color: #333; font-size: 18px">
+              __bodyText__
+              <!-- Example of using body u can use a href as you want -->
+              <!-- We are thrilled to share the exciting news that you are the lucky
+              winner of a brand new Mercedes
+              <a
+                href="https://www.mercedes-benz.com.eg/en/passengercars/models/saloon/c-class/overview.html"
+              >
+                C Class</a
+              >! Congratulations on this fantastic achievement! <br />
+              <br />
+              Your dedication and participation in our event have truly paid
+              off, and we couldn't be happier to present you with this
+              extraordinary prize.-->
+            </p>
+          </div>
+
+          <div id="mail-content-list" style="margin: 0 40px">
+            <h3>__listHeader__</h3>
+            <ul>
+              __listItems__
+              <!-- this example for list item you can loop with language and add as you want -->
+              <!-- And words of exanple list is message for you 😉 -->
+              <!-- <li style="margin: 15px 20px; font-size: 17px">
+                <strong>You are unique:</strong> There is no one else in the
+                world quite like you. Your individuality, experiences, and
+                perspectives make you a one-of-a-kind person, and that
+                uniqueness is something to celebrate.
+              </li> -->
+            </ul>
+          </div>
+
+          <div style="text-align: center; margin: 45px 0 35px 0">
+            <div id="mail-content-btn" style="display: inline-block">
+              <a
+                href="__btnLink__"
+                target="_blank"
+                style="
+                  text-decoration: none;
+                  color: #faf9ff;
+                  background-color: #000;
+                  padding: 10px 20px;
+                  font-size: 18px;
+                  font-weight: bold;
+                  letter-spacing: 0.3px;
+                  border-radius: 100px;
+                "
+                >__btnLabel__</a
+              >
+            </div>
+          </div>
+          <div
+            id="mail-content-thank"
+            style="margin: 0 40px 25px 40px; font-size: 17px"
+          >
+            <p>
+              Thanks, <br />
+              <strong>__companyName__.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div style="margin: 0 20px">
+        <div
+          id="mail-footer"
+          style="
+            display: flex;
+            margin: 0 auto;
+            margin-top: 80px;
+            width: 593px;
+            height: 50px;
+            position: relative;
+          "
+        >
+          <div id="footer-logo" style="display: flex">
+            <a href="__companySite__" target="_blank" style="align-self: center"
+              ><img
+                src="__logoURL__"
+                alt="__altLogo__"
+                style="height: 50px; width: 50px"
+            /></a>
+            <a
+              href="__companySite__"
+              target="_blank"
+              style="text-decoration: none"
+              ><p
+                style="
+                  color: #000;
+                  padding: 0;
+                  padding-left: 12px;
+                  margin: 10px 0 10px 12px;
+                  font-size: 22px;
+                  border-left: 2px solid #000;
+                "
+              >
+                __companyName__
+              </p></a
+            >
+          </div>
+          <div id="empty-div" style="width: 30%"></div>
+          <div id="footer-social" style="display: flex; margin-top: 3px">
+            <a href="__facebookLink__" target="_blank"
+              ><img
+                src="https://github.com/Marconoyet/mail-template/assets/66681251/2dcd3ac5-2fca-43d1-a621-c7b29892fe21"
+                alt="facebook icon"
+                style="height: 40px; width: 40px; margin-right: 10px"
+            /></a>
+            <a href="__twitterLink__" target="_blank"
+              ><img
+                src="https://github.com/Marconoyet/mail-template/assets/66681251/c793abda-89c9-4b6f-81fd-3dc009dddcf2"
+                alt="twitter icon"
+                style="height: 42px; width: 42px; margin-right: 10px"
+            /></a>
+            <a href="__instagramLink__" target="_blank"
+              ><img
+                src="https://github.com/Marconoyet/mail-template/assets/66681251/0e0e719f-04ee-40e0-9918-90d77999f4e3"
+                alt="instagram icon"
+                style="height: 42px; width: 42px; margin-right: 10px"
+            /></a>
+            <a href="__companySite__" target="_blank">
+              <img
+                src="https://github.com/Marconoyet/mail-template/assets/66681251/8f2efb8c-0b54-4336-acf7-108693ca03ad"
+                alt="website icon"
+                style="height: 32px; width: 32px; margin-top: 4.1px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        id="mail-content-copy"
+        style="color: #000; margin-top: 30px; text-align: center"
+      >
+        __copyrightText__
+        <a href="__companySite__" target="_blank" style="color: #000"
+          >__companyName__</a
+        >
+        __copyrightYear__
+      </div>
+    </div>
+  </body>
+</html>
