@@ -41,7 +41,7 @@ mailContent = replaceAll(mailContent, "__copyrightYear__", "2023");
 
 sendmail
 [
-	from :zoho.loginuserid
+	from : user
 	to :"your email"
 	subject :"Mail Template"
 	message :mailContent
